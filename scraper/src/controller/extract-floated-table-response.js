@@ -2,6 +2,7 @@ const { default: axios } = require("axios");
 const fs = require("fs");
 const cheerio = require("cheerio");
 
+const BASEURL = "https://m.rbi.org.in//scripts/";
 function parseRBICirculars(html) {
   const $ = cheerio.load(html);
 
@@ -41,7 +42,7 @@ function parseRBICirculars(html) {
         if (j === 0) {
           const link = $(el).find("a").attr("href");
           if (link) {
-            rowData["link"] = link;
+            rowData["link"] = BASEURL + link;
           }
         }
 

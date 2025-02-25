@@ -9,84 +9,398 @@
   ],
   "circulars": [
     {
-      "link": "BS_CircularIndexDisplay.aspx?Id=12785",
+      "link": "https://m.rbi.org.in//scripts/BS_CircularIndexDisplay.aspx?Id=12785",
       "Circular Number": "RBI/2024-2025/118DOR.CRE.REC.62/07.10.002/2024-25",
       "Date Of Issue": "24.2.2025",
       "Department": "Department of Regulation",
       "Subject": "Review and rationalization of prudential norms - UCBs",
-      "Meant For": "All Primary (Urban) Co-operative Banks"
+      "Meant For": "All Primary (Urban) Co-operative Banks",
+      "details": {
+        "circular": {
+          "title": "Review and rationalization of prudential norms - UCBs",
+          "circularNumber": "RBI/2024-25/118    DOR.CRE.REC.62/07.10.002/2024-25",
+          "referenceNumber": "",
+          "date": "February 24, 2025",
+          "meantFor": "All Primary (Urban) Co-operative Banks",
+          "pdfLink": "https://rbidocs.rbi.org.in/rdocs/Notification/PDFs/NOTI1189494DE298E0745AF88C9B1CA4F4C1ED6.PDF",
+          "contentSections": [
+            {
+              "title": "Review and rationalization of prudential norms - UCBs",
+              "content": "Reserve Bank has, from time to time, prescribed various prudential norms for Urban Co-operative Banks (UCBs) for enhancing their financial soundness and resilience. Some of these prudential norms have been issued with a view to reducing credit concentration risk, reducing exposures to sensitive sectors, and enhancing provisioning requirements for relatively riskier exposures. These norms, inter alia, include the stipulations relating to small value loans, exposure ceilings on housing and real estate loans, and provisioning requirements for investment in Security Receipts (SRs).\n\n2. With a view to rationalizing these norms, and thereby allowing greater operational flexibility to UCBs without diluting the regulatory objectives, the above prudential norms have been reviewed. The revised instructions are given in the following paragraphs."
+            },
+            {
+              "title": "A. Small Value Loans",
+              "content": "3. In terms of circular DOR (PCB).BPD.Cir No.10/13.05.000/2019-20 dated March 13, 2020, as revised vide circular DOR.CRE.REC.28/07.10.002/2024-25 dated July 25, 2024, UCBs are required to follow the prescribed glidepath to have at least 50 per cent of their aggregate loans and advances comprising of small value loans – i.e., loans of value not more than ₹25 lakh or 0.2 per cent of their Tier I capital, whichever is higher, subject to a maximum of ₹1 crore per borrower – by March 31, 2026.\n\n4. On a review, it has been decided to revise the definition of small value loans as loans of value not more than ₹25 lakh or 0.4 per cent of their Tier I capital, whichever is higher, subject to a ceiling of ₹3 crore per borrower. All other conditions, as well as the timelines and the intermediate targets remain unchanged. Boards of UCBs, however, shall periodically review the portfolio behaviour and quality under different loan-size categories and where necessary, may consider fixing lower ceilings."
+            },
+            {
+              "title": "B. Real Estate Exposure Norms",
+              "content": "5. In terms of extant instructions, aggregate exposure of a UCB to housing, real estate and commercial real estate loans is capped at 10 per cent of its total assets. The ceiling of 10 per cent can be exceeded by an additional 5 per cent of total assets for the purpose of grant of housing loans to individuals as per the eligibility limits for priority sector classification, as contained in Master Direction FIDD.CO.Plan.BC.5/04.09.01/2020-21 dated September 04, 2020, as amended from time to time. Further, subject to the above aggregate caps, the ceilings for individual housing loans are prescribed at ₹60 lakh per individual borrower for Tier-1 UCBs, and ₹140 lakh per individual borrower for all other UCBs. It has been decided to revise these prudential limits, as given in the following paragraphs."
+            },
+            {
+              "title": "Aggregate Housing/Real estate Limits",
+              "content": "6. Aggregate exposure of a UCB to residential mortgages (housing loans to individuals), other than those eligible to be classified as priority sector, shall not exceed 25 per cent of its total loans and advances.\n\n7. Aggregate exposure of a UCB to real estate sector, excluding housing loans to individuals, shall not exceed five per cent of its total loans and advances."
+            },
+            {
+              "title": "Individual housing loan limits",
+              "content": "8. Housing loans to individuals shall be subject to the following ceilings.\n\nTable content (embedded table)\n\n9. All other provisions regarding grant of loans by UCBs to real estate sector shall remain unchanged."
+            },
+            {
+              "title": "C. Provisioning requirement for investment in security receipts (SRs)",
+              "content": "10. In terms of paragraph 77A of the Master Direction on Transfer of Loan Exposure (“MD-TLE”) dated September 24, 2021, UCBs need to provide for the valuation differential on the SRs held against the assets transferred by them to ARCs. In this regard, a five-year glide path (till FY2025-26) was provided vide circular dated June 28, 2022, in respect of such SRs outstanding as on the date of issuance of MD-TLE, i.e. September 24, 2021 (‘specified SRs’).\n\n11. On a review, it has been decided to extend the above glide-path for UCBs for additional two years till FY2027-28. However, any provisions already made for the specified SRs shall continue to be maintained.\n\n12. All other provisions of the MD-TLE shall continue to be applicable, as hitherto."
+            },
+            {
+              "title": "D. Repeal provisions",
+              "content": "13. These instructions supersede the instructions issued vide extant regulations. Accordingly, circulars consolidated in the Annex stand repealed."
+            },
+            {
+              "title": "E. Commencement",
+              "content": "14. The above changes are applicable with immediate effect.\n\nYours faithfully,\n\n(Vaibhav Chaturvedi)  Chief General Manager"
+            },
+            {
+              "title": "Annex – List of circulars that stand repealed with immediate effect",
+              "content": "Table content (embedded table)"
+            }
+          ],
+          "tables": [
+            {
+              "title": "Annex – List of circulars that stand repealed with immediate effect",
+              "headers": [
+                "Sr. No.",
+                "Circular",
+                "Date of Issue",
+                "Subject"
+              ],
+              "data": [
+                {
+                  "Sr. No.": "1.",
+                  "Circular": "DOR.CRE.REC.92/07.10.002/2022-23",
+                  "Date of Issue": "December 30, 2022",
+                  "Subject": "Individual Housing loans – Revised limits under four-tiered regulatory framework"
+                },
+                {
+                  "Sr. No.": "2.",
+                  "Circular": "UBD.BPD.(PCB).Cir.No.31/13.05.000/2011-12",
+                  "Date of Issue": "April 26, 2012",
+                  "Subject": "Monetary Policy Statement 2012-13 Exposure to Housing, Real Estate and Commercial Real Estate - Primary (Urban) Co-operative Banks"
+                }
+              ]
+            }
+          ]
+        }
+      }
     },
     {
-      "link": "BS_CircularIndexDisplay.aspx?Id=12784",
+      "link": "https://m.rbi.org.in//scripts/BS_CircularIndexDisplay.aspx?Id=12784",
       "Circular Number": "RBI/2024-2025/117FMRD.DIRD.16/14.03.042/2024-25",
       "Date Of Issue": "21.2.2025",
       "Department": "Financial Markets Regulation Department",
       "Subject": "Reserve Bank of India (Forward Contracts in Government Securities) Directions, 2025",
-      "Meant For": "All Eligible Market Participants"
+      "Meant For": "All Eligible Market Participants",
+      "details": {
+        "circular": {
+          "title": "Reserve Bank of India (Forward Contracts in Government Securities) Directions, 2025",
+          "circularNumber": "RBI/2024-25/117      FMRD.DIRD.16/14.03.042/2024-25",
+          "referenceNumber": "",
+          "date": "February 21, 2025",
+          "meantFor": "All Eligible Market Participants",
+          "pdfLink": "https://rbidocs.rbi.org.in/rdocs/Notification/PDFs/NT117115BA3350C4D4AEABEF8DE4C2BCDE7BB.PDF",
+          "contentSections": [
+            {
+              "title": "Reserve Bank of India (Forward Contracts in Government Securities) Directions, 2025",
+              "content": "Please refer to press release dated December 28, 2023, regarding issuance of draft Directions on Bond Forwards for public feedback.\n\n2. Based on the feedback received from the market participants, the draft Directions have been finalised and the Reserve Bank of India (Forward Contracts in Government Securities) Directions, 2025, are being issued herewith. Necessary amendments to the Gazette Notification (S.O. 2192 (E) dated 8th January 2010) have been notified in the Official Gazette vide Gazette Id no. CG-MH-E-13022025-260991 dated February 13, 2025, a copy of which is annexed to this circular.\n\n3. Further, the following Directions have been updated, as attached, to enable transactions in forward contracts in government securities:\n\n4. These Directions have been issued in exercise of the powers conferred under section 45W of the Reserve Bank of India Act, 1934 read with section 45U of the Act and of all the powers enabling it in this behalf.\n\nYours faithfully,\n\n(Dimple Bhandia)      Chief General Manager"
+            },
+            {
+              "title": "RESERVE BANK OF INDIAFINANCIAL MARKETS REGULATION DEPARTMENT9TH FLOOR, CENTRAL OFFICE, FORTMUMBAI 400 001",
+              "content": ""
+            },
+            {
+              "title": "Notification No. FMRD.DIRD.17/14.03.042/2024-25 dated February 21, 2025        Reserve Bank of India (Forward Contracts in Government Securities) Directions, 2025",
+              "content": "In exercise of the powers conferred under section 45W of the Reserve Bank of India Act, 1934, (hereinafter called the Act) read with section 45U of the Act, the Reserve Bank of India (hereinafter called the Reserve Bank) hereby issues the following Directions. A reference is also invited to the Foreign Exchange Management Act, 1999 (42 of 1999) and Foreign Exchange Management (Debt Instruments) Regulations, 2019 (Notification No. FEMA. 396/2019-RB dated October 17, 2019)."
+            },
+            {
+              "title": "1. Short title, commencement and applicability of Directions:",
+              "content": "(i) These Directions shall be called the Reserve Bank of India (Forward Contracts in Government Securities) Directions, 2025.\n\n(ii) These Directions shall apply to forward contracts in government securities (hereinafter referred to as bond forwards) undertaken in the Over-the-Counter (OTC) market in India.\n\n(iii) These Directions shall come into force with effect from May 02, 2025."
+            },
+            {
+              "title": "2. Definitions",
+              "content": "(i) For the purpose of these Directions, unless the context otherwise requires:\n\n(ii) Words and expressions used, but not defined in these Directions, shall have the same meaning as assigned to them in the Act or in the Government Securities Act, 2006."
+            },
+            {
+              "title": "3. Eligible Market Participants",
+              "content": "The following persons shall be eligible to undertake bond forward transactions to the extent permitted under these Directions:"
+            },
+            {
+              "title": "4. Market-makers and Users",
+              "content": ""
+            },
+            {
+              "title": "4.1 Market-makers",
+              "content": "(i) The following entities shall be eligible to undertake transactions in bond forwards as market-makers:\n\n(ii) A market-maker may undertake long positions without any limit and covered short positions in bond forwards.\n\n(iii) A market-maker, permitted to undertake short sales, in terms of the Short Sale (Reserve Bank) Directions, 2018, dated July 25, 2018, as amended from time to time, shall also be eligible to undertake uncovered short positions subject to the underlying government security being eligible for short sale. Such uncovered short positions shall be reckoned in the security level limits on short sales and cannot remain uncovered for a period exceeding the maximum period specified for covering a short position in the Short Sale (Reserve Bank) Directions, 2018, dated July 25, 2018, as amended from time to time.\n\n(iv) At least one of the parties to a bond forward transaction shall be a market-maker or a central counter party authorised by the Reserve Bank for the purpose."
+            },
+            {
+              "title": "4.2 Users",
+              "content": "Any entity, eligible to be classified as a non-retail user in terms of the Rupee Interest Rate Derivatives (Reserve Bank) Directions, 2019, dated June 26, 2019, as amended from time to time, shall be eligible to undertake transactions in bond forwards as a user."
+            },
+            {
+              "title": "4.2.1 Directions for Users",
+              "content": ""
+            },
+            {
+              "title": "5. Settlement and Unwinding",
+              "content": ""
+            },
+            {
+              "title": "6. Market timing",
+              "content": "The market timing for undertaking bond forward transactions shall be the market timing specified by the Reserve Bank for undertaking OTC Rupee Interest Rate Derivative transactions."
+            },
+            {
+              "title": "7. Reporting",
+              "content": "(i) A market-maker shall report all bond forward transactions undertaken during the day to the Trade Repository (TR) of the CCIL before closure of the TR for the day. The reporting shall include, inter alia, details of the counterparties, the underlying government security, settlement type (cash-settled or physically- settled) and whether a short position is a covered or uncovered short position.\n\n(ii) Market-makers shall also report instances of unwinding, novation, bilateral settlement and settlement default to the TR.\n\n(iii) For trades involving users which will be settled through CCIL, the user or the market-maker / clearing member of CCIL through which the user is availing CCIL’s clearing and settlement services shall report all bond forward transactions undertaken during the day to the TR before closure of the TR for the day. For other trades, there shall be no requirement for users to report/confirm the transaction details to the TR. In such cases, the market-maker shall be responsible for ensuring the accuracy in respect of transactions reported.\n\n(iv) The reporting formats shall be as indicated by CCIL with the prior approval of the Reserve Bank.\n\n(v) Market-makers shall ensure that outstanding balances between their books and the TR are reconciled and subjected to concurrent audit on an ongoing basis."
+            },
+            {
+              "title": "8. Obligation to provide information sought by the Reserve Bank",
+              "content": "The Reserve Bank may call for information or statement or seek any clarification, which in the opinion of the Reserve Bank is necessary, from persons or agencies dealing in bond forward transactions, including eligible participants and ETP operators, and such persons/agencies shall furnish such information, statement or clarification within such time as specified by the Reserve Bank."
+            },
+            {
+              "title": "9. Dissemination of Data",
+              "content": "The Reserve Bank, or any other agency authorised by the Reserve Bank, may in public interest, publish anonymised data related to bond forward transactions."
+            },
+            {
+              "title": "10. Prudential Norms, Accounting and Capital Requirements",
+              "content": "(i) Market participants shall follow the applicable prudential norms including those related to capital adequacy, exposure norms, related party transactions, etc., issued by their respective regulators for bond forward transactions.\n\n(ii) A market-maker shall put in place appropriate and robust methodologies for marking to market its positions in bond forwards.\n\n(iii) The accounting of bond forwards by market participants shall be as per notified and applicable accounting standards read with regulatory guidelines/instructions issued by the respective regulators. In case the notified applicable accounting standards or the respective regulator have not prescribed the accounting treatment for bond forwards, guidance, if any, issued by the Institute of Chartered Accountants of India shall be followed in this regard."
+            },
+            {
+              "title": "11. Other Directions",
+              "content": "(i) Government securities held to cover short positions in bond forwards may be used in a repo transaction(s) or lent/placed as collateral under a Government Securities Lending (GSL) transaction(s) subject to the condition that the holder of the short position is otherwise eligible to undertake a repo/GSL transaction.\n\n(ii) Government securities held to cover short positions in bond forwards shall be eligible to be reckoned for Statutory Liquidity Ratio (SLR) by the entity covering the short position, provided that the security is otherwise eligible to be reckoned for SLR.\n\n(iii) A market-maker shall comply with the provisions of the Master Direction - Reserve Bank of India (Market-makers in OTC Derivatives) Directions, 2021, dated September 16, 2021, as updated from time to time. A market participant shall also ensure compliance with the provisions of the Reserve Bank of India (Prevention of Market Abuse) Directions, 2019.\n\n(iv) A bond forward transaction that is not centrally cleared shall be subject to requirements for exchange of variation and initial margin in terms of the provisions of the Master Direction – Reserve Bank of India (Margining for Non-Centrally Cleared OTC Derivatives) Directions, 2024 dated May 08, 2024, as amended from time to time."
+            },
+            {
+              "title": "12. Applicability of other laws, directions, regulations or guidelines",
+              "content": "A person or agency dealing in bond forwards shall abide by the provisions of any direction, regulation, or guideline issued by any regulator or authority, that may be applicable, in respect of bond forward transactions, provided that such directions, regulations or guidelines do not conflict with these Directions. In case of any conflicts, the provisions of these Directions shall prevail."
+            },
+            {
+              "title": "13. Violation of Directions",
+              "content": "If a person or agency violates any provision of these Directions, the Reserve Bank may, in addition to taking any penal or regulatory action in accordance with law, disallow that person or agency from dealing in bond forwards for a period not exceeding one month at a time, after providing reasonable opportunity of hearing. Such action may be made public by the Reserve Bank.\n\n(Dimple Bhandia)      Chief General Manager\n\n1 Novation is the replacement of a contract between two counterparties to an OTC derivatives transaction (the transferor, who steps out of the existing contract, and the remaining party) with a new contract between the remaining party and a third party (the transferee). The transferee becomes the new counterparty to the remaining party."
+            }
+          ],
+          "tables": []
+        }
+      }
     },
     {
-      "link": "BS_CircularIndexDisplay.aspx?Id=12783",
+      "link": "https://m.rbi.org.in//scripts/BS_CircularIndexDisplay.aspx?Id=12783",
       "Circular Number": "RBI/2024-2025/116DOR.MRG.REC.60/00-00-017/2024-25",
       "Date Of Issue": "17.2.2025",
       "Department": "Department of Regulation",
       "Subject": "Reserve Bank of India (Prudential Regulations on Basel III Capital Framework, Exposure Norms, Significant Investments, Classification, Valuation and Operation of Investment Portfolio Norms and Resource Raising Norms for All India Financial Institutions) Directions, 2023 - Amendment",
-      "Meant For": "Export-Import Bank of India (EXIM Bank), the National Bank for Agriculture and Rural Development (NABARD), the National Bank for Financing Infrastructure and Development (NaBFID), the National Housing Bank (NHB) and the Small Industries Development Bank of India (SIDBI)"
+      "Meant For": "Export-Import Bank of India (EXIM Bank), the National Bank for Agriculture and Rural Development (NABARD), the National Bank for Financing Infrastructure and Development (NaBFID), the National Housing Bank (NHB) and the Small Industries Development Bank of India (SIDBI)",
+      "details": {
+        "circular": {
+          "title": "Reserve Bank of India (Prudential Regulations on Basel III Capital Framework, Exposure Norms, Significant Investments, Classification, Valuation and Operation of Investment Portfolio Norms and Resource Raising Norms for All India Financial Institutions) Directions, 2023 - Amendment",
+          "circularNumber": "RBI/2024-25/116  DOR.MRG.REC.60/00-00-017/2024-25",
+          "referenceNumber": "",
+          "date": "February 17, 2025",
+          "meantFor": "February 17, 2025",
+          "pdfLink": "https://rbidocs.rbi.org.in/rdocs/Notification/PDFs/NT1169A68D6B7EB914975ACA7CB79F56E6655.PDF",
+          "contentSections": [
+            {
+              "title": "Reserve Bank of India (Prudential Regulations on Basel III Capital Framework, Exposure Norms, Significant Investments, Classification, Valuation and Operation of Investment Portfolio Norms and Resource Raising Norms for All India Financial Institutions) Directions, 2023 - Amendment",
+              "content": "Please refer to paragraph 34.2 of the Reserve Bank of India (Prudential Regulations on Basel III Capital Framework, Exposure Norms, Significant Investments, Classification, Valuation and Operation of Investment Portfolio Norms and Resource Raising Norms for All India Financial Institutions) Directions, 2023 issued on September 21, 2023.\n\n2. On a review, it has been decided that investments made by All India Financial Institutions (AIFIs), as per their statutory mandates, in long-term bonds and debentures (i.e., having minimum residual maturity of three years at the time of investment) issued by non-financial entities shall not be accounted for the purpose of the ceiling of 25 per cent applicable to investments included under Held to Maturity (HTM) category, specified under the Directions ibid.\n\n3. Accordingly, the relevant instructions have been amended as detailed in Annex."
+            },
+            {
+              "title": "Applicability",
+              "content": "4. This circular shall be applicable to the AIFIs regulated by the Reserve Bank, viz. the Export-Import Bank of India (EXIM Bank), the National Bank for Agriculture and Rural Development (NABARD), the National Bank for Financing Infrastructure and Development (NaBFID), the National Housing Bank (NHB) and the Small Industries Development Bank of India (SIDBI).\n\n5. This circular is issued in exercise of the powers conferred under Section 45L of the Reserve Bank of India Act, 1934.\n\n6. These instructions shall come into force with effect from April 1, 2025.\n\nYours faithfully,\n\n(Usha Janakiraman)    Chief General Manager-in Charge"
+            },
+            {
+              "title": "Annex",
+              "content": "Reserve Bank of India (Prudential Regulations on Basel III Capital Framework, Exposure Norms, Significant Investments, Classification, Valuation and Operation of Investment Portfolio Norms and Resource Raising Norms for All India Financial Institutions) Directions, 2023 issued on September 21, 2023\n\nTable content (embedded table)"
+            }
+          ],
+          "tables": []
+        }
+      }
     },
     {
-      "link": "BS_CircularIndexDisplay.aspx?Id=12782",
+      "link": "https://m.rbi.org.in//scripts/BS_CircularIndexDisplay.aspx?Id=12782",
       "Circular Number": "RBI/2024-2025/115FMRD.MIOD.No.15/11.01.051/2024-25",
       "Date Of Issue": "17.2.2025",
       "Department": "Financial Markets Regulation Department",
       "Subject": "Government securities transactions between a Primary Member (PM) of NDS-OM and its own Gilt Account Holder (GAH) or between two GAHs of the same PM",
-      "Meant For": "All participants in Government Securities market"
+      "Meant For": "All participants in Government Securities market",
+      "details": {
+        "circular": {
+          "title": "Government securities transactions between a Primary Member (PM) of NDS-OM and its own Gilt Account Holder (GAH) or between two GAHs of the same PM",
+          "circularNumber": "RBI/2024-25/115    FMRD.MIOD.No.15/11.01.051/2024-25",
+          "referenceNumber": "",
+          "date": "February 17, 2025",
+          "meantFor": "All participants in Government Securities market",
+          "pdfLink": "https://rbidocs.rbi.org.in/rdocs/Notification/PDFs/NT1159066D9AFA3144AC69619285CD18E0B17.PDF",
+          "contentSections": [
+            {
+              "title": "Government securities transactions between a Primary Member (PM) of NDS-OM and its own Gilt Account Holder (GAH) or between two GAHs of the same PM",
+              "content": "Transactions in Government securities in the Over the Counter (OTC) market are currently undertaken either on Negotiated Dealing System - Order Matching (NDS-OM) platform or are bilaterally negotiated outside the system and subsequently reported on NDS-OM. All transactions matched on NDS-OM platform are cleared and settled through the Clearing Corporation of India Limited (CCIL), which acts as a Central Counter Party (CCP) for transactions in Government securities.\n\n2. At present, transactions between a Primary Member (PM) and its own Gilt Account Holder (GAH) and between two GAHs of the same PM are not permitted to be matched on NDS-OM and are also not cleared and settled through CCIL. On a review and based on the feedback received, it has been decided to:\n\n3. Any failure in the settlement of these transactions shall be treated as an instance of ‘SGL bouncing’ in terms of RBI circular “Government securities Act, 2006, Section 27 and 30 – Imposition of penalty for bouncing of SGL forms” dated July 14, 2010, as amended from time to time, and will be subjected to the applicable penal provisions, as specified therein.\n\n4. Detailed operational guidelines in this regard will be issued by CCIL.\n\n5. The Directions contained in this circular have been issued under Section 45W of Chapter IIID of the Reserve Bank of India Act, 1934 and are without prejudice to permissions/ approvals, if any, required under any other law.\n\nYours faithfully,\n\n(Dimple Bhandia)    Chief General Manager"
+            }
+          ],
+          "tables": []
+        }
+      }
     },
     {
-      "link": "BS_CircularIndexDisplay.aspx?Id=12781",
+      "link": "https://m.rbi.org.in//scripts/BS_CircularIndexDisplay.aspx?Id=12781",
       "Circular Number": "RBI//2024-2025/114A.P. (DIR Series) Circular No. 21",
       "Date Of Issue": "13.2.2025",
       "Department": "Foreign Exchange Department",
       "Subject": "Export-Import Bank of India’s GOI-supported Line of Credit of USD 120 mn to the Government of the Socialist Republic of Vietnam (GO-VNM) for procurement of High-Speed Guard Boats in the Borrower’s Country",
-      "Meant For": "All Category – I Authorised Dealer Banks"
+      "Meant For": "All Category – I Authorised Dealer Banks",
+      "details": {
+        "circular": {
+          "title": "Export-Import Bank of India’s GOI-supported Line of Credit of USD 120 mn to the Government of the Socialist Republic of Vietnam (GO-VNM) for procurement of High-Speed Guard Boats in the Borrower’s Country",
+          "circularNumber": "RBI//2024-2025/114  A.P. (DIR Series) Circular No. 21",
+          "referenceNumber": "",
+          "date": "February 13, 2025",
+          "meantFor": "All Category – I Authorised Dealer Banks",
+          "pdfLink": "https://rbidocs.rbi.org.in/rdocs/Notification/PDFs/21APDIR13022025720D8E2807E541F299780813FF56C21C.PDF",
+          "contentSections": [
+            {
+              "title": "Export-Import Bank of India’s GOI-supported Line of Credit of USD 120 mn to the    Government of the Socialist Republic of Vietnam (GO-VNM) for procurement of High-Speed    Guard Boats in the Borrower’s Country",
+              "content": "Export-Import Bank of India (Exim Bank) has entered into an agreement dated July 31, 2024, with the Government of the Socialist Republic of Vietnam (GO-VNM), for making available to the latter, Government of India supported Line of Credit (LoC) of USD 120 mn (USD One Hundred Twenty Million Only) for procurement of High-Speed Guard Boats in the Borrower’s Country. The export of eligible goods and services from India, as defined under the agreement, would be allowed subject to their eligibility under the Foreign Trade Policy of the Government of India and whose purchase may be agreed to be financed by the Exim Bank under this agreement.\n\n2. The Agreement under the LoC is effective from January 20, 2025. Under the LoC, the last date for disbursement will be 60 months after scheduled completion date of the project.\n\n3. Shipments under the LoC shall be declared in Export Declaration Form/Shipping Bill as per instructions issued by the Reserve Bank from time to time.\n\n4. No agency commission is payable for export under the above LoC. However, if required, the exporter may use his own resources or utilize balances in his Exchange Earners’ Foreign Currency Account for payment of commission in free foreign exchange. Authorised Dealer (AD) Category- I banks may allow such remittance after realization of full eligible value of export subject to compliance with the extant instructions for payment of agency commission.\n\n5. AD Category – I banks may bring the contents of this circular to the notice of their exporter constituents and advise them to obtain complete details of the LoC from the Exim Bank’s office at Centre One, Floor 21, World Trade Centre Complex, Cuffe Parade, Mumbai 400 005 or from their website www.eximbankindia.in.\n\n6. The directions contained in this circular have been issued under section 10(4) and 11(1) of the Foreign Exchange Management Act (FEMA), 1999 (42 of 1999) and are without prejudice to permissions/ approvals, if any, required under any other law.\n\nYours faithfully\n\n(N Senthil Kumar)    Chief General Manager"
+            }
+          ],
+          "tables": []
+        }
+      }
     },
     {
-      "link": "BS_CircularIndexDisplay.aspx?Id=12780",
+      "link": "https://m.rbi.org.in//scripts/BS_CircularIndexDisplay.aspx?Id=12780",
       "Circular Number": "RBI//2024-2025/113A.P. (DIR Series) Circular No. 20",
       "Date Of Issue": "13.2.2025",
       "Department": "Foreign Exchange Department",
       "Subject": "Export-Import Bank of India’s GOI-supported Line of Credit of USD 180 mn to the Government of the Socialist Republic of Vietnam for procurement of 4 Offshore Patrol Vessels (OPV) in the Borrower’s Country",
-      "Meant For": "All Category – I Authorised Dealer Banks"
+      "Meant For": "All Category – I Authorised Dealer Banks",
+      "details": {
+        "circular": {
+          "title": "Export-Import Bank of India’s GOI-supported Line of Credit of USD 180 mn to the Government of the Socialist Republic of Vietnam for procurement of 4 Offshore Patrol Vessels (OPV) in the Borrower’s Country",
+          "circularNumber": "RBI//2024-2025/113     A.P. (DIR Series) Circular No. 20",
+          "referenceNumber": "",
+          "date": "February 13, 2025",
+          "meantFor": "All Category – I Authorised Dealer Banks",
+          "pdfLink": "https://rbidocs.rbi.org.in/rdocs/Notification/PDFs/20APDIR1302202593BA8C9846644B3ABE1E902A8FC00DCA.PDF",
+          "contentSections": [
+            {
+              "title": "Export-Import Bank of India’s GOI-supported Line of Credit of USD 180 mn to the     Government of the Socialist Republic of Vietnam for procurement of 4 Offshore Patrol     Vessels (OPV) in the Borrower’s Country",
+              "content": "Export-Import Bank of India (Exim Bank) has entered into an agreement dated July 31, 2024, with the Government of the Socialist Republic of Vietnam (GO-VNM), for making available to the latter, Government of India supported Line of Credit (LoC) of USD 180 mn (USD One Hundred Eighty Million Only) for procurement of 4 Offshore Patrol Vessels (OPV) in the Borrower’s Country. The export of eligible goods and services from India, as defined under the agreement, would be allowed subject to their eligibility under the Foreign Trade Policy of the Government of India and whose purchase may be agreed to be financed by the Exim Bank under this agreement.\n\n2. The Agreement under the LoC is effective from January 20, 2025. Under the LoC, the last date for disbursement will be 60 months after scheduled completion date of the project.\n\n3. Shipments under the LoC shall be declared in Export Declaration Form/Shipping Bill as per instructions issued by the Reserve Bank from time to time.\n\n4. No agency commission is payable for export under the above LoC. However, if required, the exporter may use his own resources or utilize balances in his Exchange Earners’ Foreign Currency Account for payment of commission in free foreign exchange. Authorised Dealer (AD) Category- I banks may allow such remittance after realization of full eligible value of export subject to compliance with the extant instructions for payment of agency commission.\n\n5. AD Category – I banks may bring the contents of this circular to the notice of their exporter constituents and advise them to obtain complete details of the LoC from the Exim Bank’s office at Centre One, Floor 21, World Trade Centre Complex, Cuffe Parade, Mumbai 400 005 or from their website www.eximbankindia.in.\n\n6. The directions contained in this circular have been issued under section 10(4) and 11(1) of the Foreign Exchange Management Act (FEMA), 1999 (42 of 1999) and are without prejudice to permissions/ approvals, if any, required under any other law.\n\nYours faithfully\n\n(N Senthil Kumar)  Chief General Manager"
+            }
+          ],
+          "tables": []
+        }
+      }
     },
     {
-      "link": "BS_CircularIndexDisplay.aspx?Id=12778",
+      "link": "https://m.rbi.org.in//scripts/BS_CircularIndexDisplay.aspx?Id=12778",
       "Circular Number": "RBI/2024-2025/112DOR.CO.SOG(Leg) No.59/09.08.024/2024-25",
       "Date Of Issue": "11.2.2025",
       "Department": "Department of Regulation",
       "Subject": "All Agency Banks to remain open for public on March 31, 2025 (Monday)",
-      "Meant For": "All Agency Banks"
+      "Meant For": "All Agency Banks",
+      "details": {
+        "circular": {
+          "title": "All Agency Banks to remain open for public on March 31, 2025 (Monday)",
+          "circularNumber": "RBI/2024-25/112        DOR.CO.SOG(Leg) No.59/09.08.024/2024-25",
+          "referenceNumber": "",
+          "date": "February 11, 2025",
+          "meantFor": "All Agency Banks",
+          "pdfLink": "https://rbidocs.rbi.org.in/rdocs/Notification/PDFs/NT112FF1E262985EE4D9EA04CD750EF955C1D.PDF",
+          "contentSections": [
+            {
+              "title": "All Agency Banks to remain open for public on March 31, 2025 (Monday)",
+              "content": "The Government of India has made a request to keep all branches of the banks dealing with Government receipts and payments open for transactions on March 31, 2025 (Monday-Public Holiday) so as to account for all the Government transactions relating to receipts and payments in the Financial Year 2024-25 itself. Accordingly, Agency Banks are advised to keep all their branches dealing with government business open on March 31, 2025 (Monday).\n\n2. Banks shall give due publicity about the availability of above banking services on this day.\n\nYours faithfully\n\n(Sunil T S Nair)Chief General Manager"
+            }
+          ],
+          "tables": []
+        }
+      }
     },
     {
-      "link": "BS_CircularIndexDisplay.aspx?Id=12776",
+      "link": "https://m.rbi.org.in//scripts/BS_CircularIndexDisplay.aspx?Id=12776",
       "Circular Number": "RBI/2024-2025/111DoR.RET.REC.57/12.01.001/2024-25",
       "Date Of Issue": "07.2.2025",
       "Department": "Department of Regulation",
       "Subject": "Change in Bank Rate",
-      "Meant For": "All Banks"
+      "Meant For": "All Banks",
+      "details": {
+        "circular": {
+          "title": "Change in Bank Rate",
+          "circularNumber": "RBI/2024-25/111  DoR.RET.REC.57/12.01.001/2024-25",
+          "referenceNumber": "",
+          "date": "February 07, 2025",
+          "meantFor": "All Banks",
+          "pdfLink": "https://rbidocs.rbi.org.in/rdocs/Notification/PDFs/NT11129E0B0E03DA348C4A33B5CAC4D7FC777.PDF",
+          "contentSections": [
+            {
+              "title": "Change in Bank Rate",
+              "content": "Please refer to our circular DOR.RET.REC.101/12.01.001/2022-23 dated February 08, 2023 on the captioned subject.\n\n2. As announced in the Monetary Policy Statement 2024-25 dated February 07, 2025, the Bank Rate is revised downwards by 25 basis points from 6.75 per cent to 6.50 per cent with immediate effect.\n\n3. All penal interest rates on shortfall in reserve requirements, which are specifically linked to the Bank Rate, also stand revised as indicated in the Annex.\n\nYours faithfully,\n\n(Latha Vishwanath)    Chief General Manager\n\nEncl.: As above"
+            },
+            {
+              "title": "Annex",
+              "content": ""
+            },
+            {
+              "title": "Penal Interest Rates which are linked to the Bank Rate",
+              "content": "Table content (embedded table)"
+            }
+          ],
+          "tables": []
+        }
+      }
     },
     {
-      "link": "BS_CircularIndexDisplay.aspx?Id=12775",
+      "link": "https://m.rbi.org.in//scripts/BS_CircularIndexDisplay.aspx?Id=12775",
       "Circular Number": "RBI/2024-2025/110REF.No.MPD.BC.398/07.01.279/2024-25",
       "Date Of Issue": "07.2.2025",
       "Department": "Monetary Policy Department",
       "Subject": "Standing Liquidity Facility for Primary Dealers",
-      "Meant For": "All Primary Dealers,"
+      "Meant For": "All Primary Dealers,",
+      "details": {
+        "circular": {
+          "title": "Standing Liquidity Facility for Primary Dealers",
+          "circularNumber": "RBI/2024-25/110  REF.No.MPD.BC.398/07.01.279/2024-25",
+          "referenceNumber": "",
+          "date": "February 07, 2025",
+          "meantFor": "",
+          "pdfLink": "https://rbidocs.rbi.org.in/rdocs/Notification/PDFs/NT1104EB9E99A9AD0417BB208D27EF7D2747D.PDF",
+          "contentSections": [
+            {
+              "title": "Standing Liquidity Facility for Primary Dealers",
+              "content": "As announced in the bi-monthly Monetary Policy Statement, 2024-25, today, it has been decided by the Monetary Policy Committee (MPC) to reduce the policy repo rate under the Liquidity Adjustment Facility (LAF) by 25 basis points from 6.50 per cent to 6.25 per cent with immediate effect.\n\n2. Accordingly, the Standing Liquidity Facility provided to Primary Dealers (PDs) (collateralised liquidity support) from the Reserve Bank would be available at the revised repo rate of 6.25 per cent with immediate effect.\n\nYours faithfully,\n\n(Praggya Das)    Adviser-in-Charge"
+            }
+          ],
+          "tables": []
+        }
+      }
     },
     {
-      "link": "BS_CircularIndexDisplay.aspx?Id=12774",
+      "link": "https://m.rbi.org.in//scripts/BS_CircularIndexDisplay.aspx?Id=12774",
       "Circular Number": "RBI/2024-2025/109FMOD.MAOG.No.150/01.01.001/2024-25",
       "Date Of Issue": "07.2.2025",
       "Department": "Financial Markets Operation Department",
       "Subject": "Liquidity Adjustment Facility - Change in rates",
-      "Meant For": "All Liquidity Adjustment Facility (LAF) participants"
+      "Meant For": "All Liquidity Adjustment Facility (LAF) participants",
+      "details": {
+        "circular": {
+          "title": "Liquidity Adjustment Facility - Change in rates",
+          "circularNumber": "RBI/2024-25/109  FMOD.MAOG.No.150/01.01.001/2024-25",
+          "referenceNumber": "",
+          "date": "February 07, 2025",
+          "meantFor": "All Liquidity Adjustment Facility (LAF) participants",
+          "pdfLink": "https://rbidocs.rbi.org.in/rdocs/Notification/PDFs/NOT1090C5E6F5BF60F4502873BDA6B6FB7108D.PDF",
+          "contentSections": [
+            {
+              "title": "Liquidity Adjustment Facility - Change in rates",
+              "content": "As announced in the Monetary Policy Statement dated February 07, 2025, it has been decided by the Monetary Policy Committee (MPC) to reduce the policy repo rate under the Liquidity Adjustment Facility (LAF) by 25 basis points from 6.50 per cent to 6.25 per cent with immediate effect.\n\n2. Consequently, the standing deposit facility (SDF) rate and marginal standing facility (MSF) rate stand adjusted to 6.00 per cent and 6.50 per cent respectively, with immediate effect.\n\n3. All other terms and conditions of the extant LAF Scheme will remain unchanged.\n\nYours sincerely,\n\n(G. Seshsayee)    Chief General Manager"
+            }
+          ],
+          "tables": []
+        }
+      }
     }
   ]
 }
