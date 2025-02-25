@@ -1,11 +1,11 @@
 # NPCI-RAG
 
-This project is a LLM-powered Document Intelligence (DI) System that utilizes RAG (Retrieval-Augmented Generation) with OpenAI GPT3.5 turbo, Qdrant for vector storage, and OpenAI embeddings to provide efficient document querying and chatbot capabilities. We have extracted data from 50+ PDFs to sample our knowledge base and fine tuned LLM RAG for operation.
+This project is a LLM-powered Document Intelligence (DI) System that utilizes RAG (Retrieval-Augmented Generation) with Gemini 2.0, Qdrant for vector storage, and Hugging Face embeddings to provide efficient document querying and chatbot capabilities. We have extracted data from 50+ PDFs to sample our knowledge base and fine tuned LLM RAG for operation.
 
 
 ## Tech Stack
 
-**Frontend** - Streamlit
+**Frontend** - Streamlit, Gradio specifically for RAG because of time constrainst
 
 **Backend** - Firebase, Toranado server
 
@@ -14,17 +14,13 @@ This project is a LLM-powered Document Intelligence (DI) System that utilizes RA
 **LLM** - OpenAI GPT 3.5 turbo
  
  
-## Languages & Tools 
-
-<p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://www.framer.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" alt="framer" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
-
 
 ## Roadmap
 
-- MVP Development – Extract JSON data, generate embeddings, store in Qdrant, integrate GPT 3,5 turbo.
-- Core System – Build Firebase backend, Streamlit UI, optimize RAG pipeline, add structured responses.
-- Scaling & Performance – Improve query speed, deploy on GCP/AWS, add monitoring (Prometheus/Grafana).
-- Advanced Features – Multi-modal support, user personalization, auto-summarization, enterprise integration.
+✅ MVP Development – Extract JSON data, generate embeddings, store in Qdrant, integrate GPT 3,5 turbo.
+✅ Core System – Build Firebase backend, Streamlit UI, optimize RAG pipeline, add structured responses.
+✅ Scaling & Performance – Improve query speed, deploy on GCP/AWS, add monitoring (Prometheus/Grafana).
+✅ Advanced Features – Multi-modal support, user personalization, auto-summarization, enterprise integration.
 
 
 ## Documentation
@@ -48,6 +44,16 @@ Our tool enables users to quickly access key insights from large document reposi
 ![](https://github.com/Hrishikesh332/NPCI-RAG/blob/main/src/2_ss.jpg)
 ![](https://github.com/Hrishikesh332/NPCI-RAG/blob/main/src/3_Ss.jpg)
 ![](https://github.com/Hrishikesh332/NPCI-RAG/blob/main/src/4_ss.jpg)
+
+
+## Streamlit App made, Final One with the firebase connected and the AI agent to get the NPCI News
+
+![](https://github.com/Hrishikesh332/NPCI-RAG/blob/main/src/5_ss_Streamlit.png)
+![](https://github.com/Hrishikesh332/NPCI-RAG/blob/main/src/6_ss_query_Streamlit.png)
+![](https://github.com/Hrishikesh332/NPCI-RAG/blob/main/src/7_ss_AI_Agent.jpg)
+
+
+
 ## Authors
 
 🔆 [@Prathik Shetty](https://github.com/prathikshetty2002)
