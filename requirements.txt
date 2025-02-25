@@ -1,0 +1,6 @@
+langchain
+streamlit
+langchain-community
+langchain-openai
+langgraph
+firebase-admin==6.2.0
