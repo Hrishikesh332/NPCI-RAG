@@ -18,8 +18,11 @@ This project is a LLM-powered Document Intelligence (DI) System that utilizes RA
 ## Roadmap
 
 ✅ MVP Development – Extract JSON data, generate embeddings, store in Qdrant, integrate GPT 3,5 turbo.
+
 ✅ Core System – Build Firebase backend, Streamlit UI, optimize RAG pipeline, add structured responses.
+
 ✅ Scaling & Performance – Improve query speed, deploy on GCP/AWS, add monitoring (Prometheus/Grafana).
+
 ✅ Advanced Features – Multi-modal support, user personalization, auto-summarization, enterprise integration.
 
 
@@ -47,6 +50,8 @@ Our tool enables users to quickly access key insights from large document reposi
 
 
 ## Streamlit App made, Final One with the firebase connected and the AI agent to get the NPCI News
+
+The main application still in development - [](https://npci-rag.streamlit.app/)
 
 ![](https://github.com/Hrishikesh332/NPCI-RAG/blob/main/src/5_ss_Streamlit.png)
 ![](https://github.com/Hrishikesh332/NPCI-RAG/blob/main/src/6_ss_query_Streamlit.png)
