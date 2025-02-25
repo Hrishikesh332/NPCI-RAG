@@ -77,7 +77,7 @@ start the flask app
 
 🔆 [@Hrishikesh Yadav](https://www.github.com/Hrishikesh332)
 
-🔆 [@Ashutosh Pandey](https://www.github.com/vikrantsingh22)
+🔆 [@Vikrant Singh](https://www.github.com/vikrantsingh22)
 
 
 ## Contributing
