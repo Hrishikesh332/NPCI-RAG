@@ -58,6 +58,10 @@ https://npci-rag.streamlit.app/
 ![](https://github.com/Hrishikesh332/NPCI-RAG/blob/main/src/6_ss_query_Streamlit.png)
 ![](https://github.com/Hrishikesh332/NPCI-RAG/blob/main/src/7_ss_AI_Agent.jpg)
 
+## Qdrant Database
+
+![](https://github.com/Hrishikesh332/NPCI-RAG/blob/main/src/image1.jpeg)
+![](https://github.com/Hrishikesh332/NPCI-RAG/blob/main/src/image2.jpeg)
 
 
 ## Authors
