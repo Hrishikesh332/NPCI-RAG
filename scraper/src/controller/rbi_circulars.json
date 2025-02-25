@@ -1,0 +1,92 @@
+{
+  "title": "RBI Circulars February - 2025",
+  "headers": [
+    "Circular Number",
+    "Date Of Issue",
+    "Department",
+    "Subject",
+    "Meant For"
+  ],
+  "circulars": [
+    {
+      "link": "BS_CircularIndexDisplay.aspx?Id=12785",
+      "Circular Number": "RBI/2024-2025/118DOR.CRE.REC.62/07.10.002/2024-25",
+      "Date Of Issue": "24.2.2025",
+      "Department": "Department of Regulation",
+      "Subject": "Review and rationalization of prudential norms - UCBs",
+      "Meant For": "All Primary (Urban) Co-operative Banks"
+    },
+    {
+      "link": "BS_CircularIndexDisplay.aspx?Id=12784",
+      "Circular Number": "RBI/2024-2025/117FMRD.DIRD.16/14.03.042/2024-25",
+      "Date Of Issue": "21.2.2025",
+      "Department": "Financial Markets Regulation Department",
+      "Subject": "Reserve Bank of India (Forward Contracts in Government Securities) Directions, 2025",
+      "Meant For": "All Eligible Market Participants"
+    },
+    {
+      "link": "BS_CircularIndexDisplay.aspx?Id=12783",
+      "Circular Number": "RBI/2024-2025/116DOR.MRG.REC.60/00-00-017/2024-25",
+      "Date Of Issue": "17.2.2025",
+      "Department": "Department of Regulation",
+      "Subject": "Reserve Bank of India (Prudential Regulations on Basel III Capital Framework, Exposure Norms, Significant Investments, Classification, Valuation and Operation of Investment Portfolio Norms and Resource Raising Norms for All India Financial Institutions) Directions, 2023 - Amendment",
+      "Meant For": "Export-Import Bank of India (EXIM Bank), the National Bank for Agriculture and Rural Development (NABARD), the National Bank for Financing Infrastructure and Development (NaBFID), the National Housing Bank (NHB) and the Small Industries Development Bank of India (SIDBI)"
+    },
+    {
+      "link": "BS_CircularIndexDisplay.aspx?Id=12782",
+      "Circular Number": "RBI/2024-2025/115FMRD.MIOD.No.15/11.01.051/2024-25",
+      "Date Of Issue": "17.2.2025",
+      "Department": "Financial Markets Regulation Department",
+      "Subject": "Government securities transactions between a Primary Member (PM) of NDS-OM and its own Gilt Account Holder (GAH) or between two GAHs of the same PM",
+      "Meant For": "All participants in Government Securities market"
+    },
+    {
+      "link": "BS_CircularIndexDisplay.aspx?Id=12781",
+      "Circular Number": "RBI//2024-2025/114A.P. (DIR Series) Circular No. 21",
+      "Date Of Issue": "13.2.2025",
+      "Department": "Foreign Exchange Department",
+      "Subject": "Export-Import Bank of India’s GOI-supported Line of Credit of USD 120 mn to the Government of the Socialist Republic of Vietnam (GO-VNM) for procurement of High-Speed Guard Boats in the Borrower’s Country",
+      "Meant For": "All Category – I Authorised Dealer Banks"
+    },
+    {
+      "link": "BS_CircularIndexDisplay.aspx?Id=12780",
+      "Circular Number": "RBI//2024-2025/113A.P. (DIR Series) Circular No. 20",
+      "Date Of Issue": "13.2.2025",
+      "Department": "Foreign Exchange Department",
+      "Subject": "Export-Import Bank of India’s GOI-supported Line of Credit of USD 180 mn to the Government of the Socialist Republic of Vietnam for procurement of 4 Offshore Patrol Vessels (OPV) in the Borrower’s Country",
+      "Meant For": "All Category – I Authorised Dealer Banks"
+    },
+    {
+      "link": "BS_CircularIndexDisplay.aspx?Id=12778",
+      "Circular Number": "RBI/2024-2025/112DOR.CO.SOG(Leg) No.59/09.08.024/2024-25",
+      "Date Of Issue": "11.2.2025",
+      "Department": "Department of Regulation",
+      "Subject": "All Agency Banks to remain open for public on March 31, 2025 (Monday)",
+      "Meant For": "All Agency Banks"
+    },
+    {
+      "link": "BS_CircularIndexDisplay.aspx?Id=12776",
+      "Circular Number": "RBI/2024-2025/111DoR.RET.REC.57/12.01.001/2024-25",
+      "Date Of Issue": "07.2.2025",
+      "Department": "Department of Regulation",
+      "Subject": "Change in Bank Rate",
+      "Meant For": "All Banks"
+    },
+    {
+      "link": "BS_CircularIndexDisplay.aspx?Id=12775",
+      "Circular Number": "RBI/2024-2025/110REF.No.MPD.BC.398/07.01.279/2024-25",
+      "Date Of Issue": "07.2.2025",
+      "Department": "Monetary Policy Department",
+      "Subject": "Standing Liquidity Facility for Primary Dealers",
+      "Meant For": "All Primary Dealers,"
+    },
+    {
+      "link": "BS_CircularIndexDisplay.aspx?Id=12774",
+      "Circular Number": "RBI/2024-2025/109FMOD.MAOG.No.150/01.01.001/2024-25",
+      "Date Of Issue": "07.2.2025",
+      "Department": "Financial Markets Operation Department",
+      "Subject": "Liquidity Adjustment Facility - Change in rates",
+      "Meant For": "All Liquidity Adjustment Facility (LAF) participants"
+    }
+  ]
+}
