@@ -12,6 +12,11 @@ This project is a LLM-powered Document Intelligence (DI) System that utilizes RA
 **Database** - Firestore
 
 **LLM** - OpenAI GPT 3.5 turbo
+ 
+ 
+## Languages & Tools 
+
+<p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://www.framer.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" alt="framer" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
 
 
 ## Roadmap
@@ -37,47 +42,19 @@ Our tool enables users to quickly access key insights from large document reposi
 - Supports Large Datasets: Handles vast amounts of structured and unstructured documents efficiently.
 
 
-## Run Locally
+## Screenshots
 
-Clone the project
-
-```bash
-  git clone <link>
-```
-
-Go to the project directory
-
-```bash
-  cd <path>
-```
-Create a virtualenv
-
-```bash
-  pip install virtualenv
-
-  virtualenv venv
-```
-Activate venv
-```bash
-  source path/to/your/activate.sh 
-
-```
-start the flask app
-
-```bash
-  cd <path>
-
-  python app.py
-```
-
-
+![](https://github.com/Hrishikesh332/NPCI-RAG/blob/main/src/1_ss.jpg)
+![](https://github.com/Hrishikesh332/NPCI-RAG/blob/main/src/2_ss.jpg)
+![](https://github.com/Hrishikesh332/NPCI-RAG/blob/main/src/3_Ss.jpg)
+![](https://github.com/Hrishikesh332/NPCI-RAG/blob/main/src/4_ss.jpg)
 ## Authors
 
 🔆 [@Prathik Shetty](https://github.com/prathikshetty2002)
 
 🔆 [@Hrishikesh Yadav](https://www.github.com/Hrishikesh332)
 
-🔆 [@Vikrant Singh](https://www.github.com/vikrantsingh22)
+🔆 [@Ashutosh Pandey](https://www.github.com/vikrantsingh22)
 
 
 ## Contributing
