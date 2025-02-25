@@ -1,6 +1,6 @@
 # NPCI-RAG
 
-This project is a LLM-powered Document Intelligence (DI) System that utilizes RAG (Retrieval-Augmented Generation) with Gemini 2.0, Qdrant for vector storage, and Hugging Face embeddings to provide efficient document querying and chatbot capabilities. We have extracted data from 50+ PDFs to sample our knowledge base and fine tuned LLM RAG for operation.
+This project is a LLM-powered Document Intelligence (DI) System that utilizes RAG (Retrieval-Augmented Generation) with OpenAI GPT3.5 turbo, Qdrant for vector storage, and OpenAI embeddings to provide efficient document querying and chatbot capabilities. We have extracted data from 50+ PDFs to sample our knowledge base and fine tuned LLM RAG for operation.
 
 
 ## Tech Stack
@@ -54,7 +54,7 @@ Our tool enables users to quickly access key insights from large document reposi
 
 🔆 [@Hrishikesh Yadav](https://www.github.com/Hrishikesh332)
 
-🔆 [@Ashutosh Pandey](https://www.github.com/vikrantsingh22)
+🔆 [@Vikrant Singh](https://www.github.com/vikrantsingh22)
 
 
 ## Contributing
