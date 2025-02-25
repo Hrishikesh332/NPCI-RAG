@@ -1,0 +1,18 @@
+{
+  "name": "new-folder-(4)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "express": "^4.21.2",
+    "request-promise": "^4.2.6"
+  }
+}
