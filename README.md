@@ -51,7 +51,8 @@ Our tool enables users to quickly access key insights from large document reposi
 
 ## Streamlit App made, Final One with the firebase connected and the AI agent to get the NPCI News
 
-The main application still in development - ![](https://npci-rag.streamlit.app/)
+The main application still in development - [](https://npci-rag.streamlit.app/)
+https://npci-rag.streamlit.app/
 
 ![](https://github.com/Hrishikesh332/NPCI-RAG/blob/main/src/5_ss_Streamlit.png)
 ![](https://github.com/Hrishikesh332/NPCI-RAG/blob/main/src/6_ss_query_Streamlit.png)
