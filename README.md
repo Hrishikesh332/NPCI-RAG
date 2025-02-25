@@ -21,10 +21,10 @@ This project is a LLM-powered Document Intelligence (DI) System that utilizes RA
 
 ## Roadmap
 
-✅ MVP Development – Extract JSON data, generate embeddings, store in Qdrant, integrate GPT 3,5 turbo.
-✅ Core System – Build Firebase backend, Streamlit UI, optimize RAG pipeline, add structured responses.
-✅ Scaling & Performance – Improve query speed, deploy on GCP/AWS, add monitoring (Prometheus/Grafana).
-✅ Advanced Features – Multi-modal support, user personalization, auto-summarization, enterprise integration.
+- MVP Development – Extract JSON data, generate embeddings, store in Qdrant, integrate GPT 3,5 turbo.
+- Core System – Build Firebase backend, Streamlit UI, optimize RAG pipeline, add structured responses.
+- Scaling & Performance – Improve query speed, deploy on GCP/AWS, add monitoring (Prometheus/Grafana).
+- Advanced Features – Multi-modal support, user personalization, auto-summarization, enterprise integration.
 
 
 ## Documentation
