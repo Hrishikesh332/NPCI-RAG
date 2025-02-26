@@ -10,7 +10,9 @@ import markdown2
 
 from qdrant_client import QdrantClient
 from qdrant_client.http import models
+from qdrant_client.http.models import Filter, PointStruct
 
+# Configuration - Replace with environment variables in production
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "YOUR_OPENAI_API_KEY")
 QDRANT_API_KEY = os.environ.get("QDRANT_API_KEY", "YOUR_QDRANT_API_KEY")
 QDRANT_URL = os.environ.get("QDRANT_URL", "YOUR_QDRANT_URL")
@@ -18,7 +20,7 @@ COLLECTION_NAME = os.environ.get("QDRANT_COLLECTION_NAME", "rbi_circulars")
 EMBEDDING_MODEL = os.environ.get("EMBEDDING_MODEL", "text-embedding-3-small")
 LLM_MODEL = os.environ.get("LLM_MODEL", "gpt-3.5-turbo")
 
-
+# Initialize clients
 client = openai.OpenAI(api_key=OPENAI_API_KEY)
 qdrant_client = QdrantClient(
     url=QDRANT_URL,
@@ -37,32 +39,51 @@ def search_circulars(query: str, limit: int = 5) -> List[Dict[str, Any]]:
     """Search for relevant circulars based on the query."""
     query_embedding = get_embedding(query)
     
+    # Version-agnostic approach to search in Qdrant
     try:
-        search_results = qdrant_client.search(
-            collection_name=COLLECTION_NAME,
-            query_vector=query_embedding,
-            limit=limit
-        )
+        # Try multiple approaches to handle different Qdrant client versions
+        try:
+            # First try the newer API (1.1.0+)
+            search_results = qdrant_client.search(
+                collection_name=COLLECTION_NAME,
+                query_vector=query_embedding,
+                limit=limit
+            )
+        except (TypeError, AssertionError):
+            # Try alternative approach with explicit models
+            search_request = models.SearchRequest(
+                vector=query_embedding,
+                limit=limit
+            )
+            search_results = qdrant_client.search(
+                collection_name=COLLECTION_NAME,
+                search_request=search_request
+            )
     except Exception as e:
-        print(f"Error searching Qdrant: {str(e)}")
-        # Fallback to using query_points for newer Qdrant versions
-        search_results = qdrant_client.query_points(
-            collection_name=COLLECTION_NAME,
-            query_vector=query_embedding,
-            limit=limit
-        ).points
+        print(f"Error with search methods: {str(e)}")
+        try:
+            # Last resort: Try query_points for newest versions
+            search_results = qdrant_client.query_points(
+                collection_name=COLLECTION_NAME,
+                vector=query_embedding,
+                limit=limit
+            ).points
+        except Exception as e2:
+            print(f"Error with query_points: {str(e2)}")
+            # If all else fails, return empty results
+            return []
     
     results = []
     for result in search_results:
         results.append({
-            "score": result.score,
-            "circular_number": result.payload.get("circular_number"),
-            "title": result.payload.get("title"),
-            "department": result.payload.get("department"),
-            "date": result.payload.get("date"),
-            "meant_for": result.payload.get("meant_for"),
-            "link": result.payload.get("link"),
-            "preview": result.payload.get("text")
+            "score": getattr(result, "score", 0.0),
+            "circular_number": result.payload.get("circular_number", "N/A"),
+            "title": result.payload.get("title", "Untitled"),
+            "department": result.payload.get("department", "N/A"),
+            "date": result.payload.get("date", "N/A"),
+            "meant_for": result.payload.get("meant_for", "N/A"),
+            "link": result.payload.get("link", "#"),
+            "preview": result.payload.get("text", "No preview available")
         })
     
     return results
@@ -83,6 +104,9 @@ def fetch_full_circular_content(url: str) -> str:
 
 def generate_response(query: str, retrieved_docs: List[Dict[str, Any]]) -> str:
     """Generate an LLM response based on the query and retrieved documents."""
+    if not retrieved_docs:
+        return "No relevant documents were found to answer your query. Please try a different question."
+    
     context = ""
     for i, doc in enumerate(retrieved_docs):
         context += f"Document {i+1}:\n"
@@ -103,24 +127,29 @@ Retrieved Circulars:
 Please provide a comprehensive answer based on the information in these circulars.
 """
     
-    response = client.chat.completions.create(
-        model=LLM_MODEL,
-        messages=[
-            {"role": "system", "content": "You are a helpful assistant specializing in RBI policies and circulars."},
-            {"role": "user", "content": prompt}
-        ],
-        temperature=0.3,
-        max_tokens=1000
-    )
-    
-    return response.choices[0].message.content
+    try:
+        response = client.chat.completions.create(
+            model=LLM_MODEL,
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant specializing in RBI policies and circulars."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.3,
+            max_tokens=1000
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        return f"Error generating response: {str(e)}"
 
 def format_results_html(results: List[Dict[str, Any]]) -> str:
     """Format the search results as HTML for display."""
+    if not results:
+        return "<div>No relevant circulars found.</div>"
+        
     html = "<div style='font-family: Arial, sans-serif;'>"
     
     for i, result in enumerate(results):
-        relevance = int(result["score"] * 100)
+        relevance = int(result.get("score", 0) * 100)
         html += f"""
         <div style='margin-bottom: 20px; padding: 15px; border-radius: 8px; background-color: #f9f9f9; border-left: 5px solid #2c5282;'>
             <h3 style='color: #2c5282; margin-top: 0;'>{result["title"]}</h3>
@@ -152,18 +181,29 @@ def format_results_html(results: List[Dict[str, Any]]) -> str:
 
 def rag_query(query, num_results=5):
     """Main RAG function that handles the entire process."""
-    if not query.strip():
-        return "Please enter a query.", ""
+    if not query or not isinstance(query, str) or not query.strip():
+        return "Please enter a valid query.", ""
     
-    retrieved_docs = search_circulars(query, limit=num_results)
+    # Ensure num_results is an integer
+    try:
+        num_results = int(num_results)
+    except (TypeError, ValueError):
+        num_results = 5  # Default to 5 if conversion fails
     
-    if not retrieved_docs:
-        return "No relevant circulars found.", ""
-    
-    llm_response = generate_response(query, retrieved_docs)
-    formatted_results = format_results_html(retrieved_docs)
-    
-    return llm_response, formatted_results
+    try:
+        retrieved_docs = search_circulars(query, limit=num_results)
+        
+        if not retrieved_docs:
+            return "No relevant circulars found for your query. Please try different search terms.", ""
+        
+        llm_response = generate_response(query, retrieved_docs)
+        formatted_results = format_results_html(retrieved_docs)
+        
+        return llm_response, formatted_results
+    except Exception as e:
+        error_message = f"An error occurred while processing your query: {str(e)}"
+        print(error_message)  # Log the error
+        return error_message, ""
 
 # Create the Gradio interface
 def create_interface():
