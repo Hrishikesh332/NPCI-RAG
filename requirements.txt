@@ -4,3 +4,10 @@ langchain-community
 langchain-openai
 langgraph
 firebase-admin==6.2.0
+gunicorn
+qdrant-client
+beautifulsoup4>=4.12.0
+markdown2>=2.5.0
+requests>=2.0.0
+tqdm>=4.0.0
+gradio
