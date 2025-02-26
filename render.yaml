@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: rbi-circulars-rag
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn gradio_app:app
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: QDRANT_API_KEY
+        sync: false
+      - key: QDRANT_URL
+        sync: false
+      - key: QDRANT_COLLECTION_NAME
+        value: rbi_circulars
