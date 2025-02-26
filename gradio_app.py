@@ -18,6 +18,7 @@ COLLECTION_NAME = os.environ.get("QDRANT_COLLECTION_NAME", "rbi_circulars")
 EMBEDDING_MODEL = os.environ.get("EMBEDDING_MODEL", "text-embedding-3-small")
 LLM_MODEL = os.environ.get("LLM_MODEL", "gpt-3.5-turbo")
 
+
 client = openai.OpenAI(api_key=OPENAI_API_KEY)
 qdrant_client = QdrantClient(
     url=QDRANT_URL,
@@ -25,7 +26,7 @@ qdrant_client = QdrantClient(
 )
 
 def get_embedding(text: str) -> List[float]:
-
+    """Generate embeddings for the given text."""
     response = client.embeddings.create(
         input=text,
         model=EMBEDDING_MODEL
@@ -33,7 +34,7 @@ def get_embedding(text: str) -> List[float]:
     return response.data[0].embedding
 
 def search_circulars(query: str, limit: int = 5) -> List[Dict[str, Any]]:
-
+    """Search for relevant circulars based on the query."""
     query_embedding = get_embedding(query)
     
     try:
@@ -67,6 +68,7 @@ def search_circulars(query: str, limit: int = 5) -> List[Dict[str, Any]]:
     return results
 
 def fetch_full_circular_content(url: str) -> str:
+    """Fetch the full content of a circular from its URL."""
     try:
         response = requests.get(url)
         response.raise_for_status()
@@ -80,7 +82,7 @@ def fetch_full_circular_content(url: str) -> str:
         return f"Error fetching content: {str(e)}"
 
 def generate_response(query: str, retrieved_docs: List[Dict[str, Any]]) -> str:
-
+    """Generate an LLM response based on the query and retrieved documents."""
     context = ""
     for i, doc in enumerate(retrieved_docs):
         context += f"Document {i+1}:\n"
@@ -114,7 +116,7 @@ Please provide a comprehensive answer based on the information in these circular
     return response.choices[0].message.content
 
 def format_results_html(results: List[Dict[str, Any]]) -> str:
-
+    """Format the search results as HTML for display."""
     html = "<div style='font-family: Arial, sans-serif;'>"
     
     for i, result in enumerate(results):
@@ -149,7 +151,7 @@ def format_results_html(results: List[Dict[str, Any]]) -> str:
     return html
 
 def rag_query(query, num_results=5):
-
+    """Main RAG function that handles the entire process."""
     if not query.strip():
         return "Please enter a query.", ""
     
@@ -163,8 +165,9 @@ def rag_query(query, num_results=5):
     
     return llm_response, formatted_results
 
+# Create the Gradio interface
 def create_interface():
-
+    """Create the Gradio interface."""
     with gr.Blocks(theme=gr.themes.Soft()) as demo:
         gr.Markdown("# RBI Circulars RAG System")
         gr.Markdown("Query the RBI Circulars database using natural language")
@@ -212,7 +215,11 @@ def create_interface():
         
         return demo
 
+# Create Gradio app for Render deployment
+app = create_interface()
 
+# Entry point for the application
 if __name__ == "__main__":
-    demo = create_interface()
-    demo.launch(server_name="0.0.0.0", share=True)
+    # Run locally when executed directly
+    port = int(os.environ.get("PORT", 7860))
+    app.launch(server_name="0.0.0.0", server_port=port)
