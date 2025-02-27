@@ -261,4 +261,5 @@ app = create_interface()
 # Entry point for the application
 if __name__ == "__main__":
     # Run locally when executed directly)
-    app.launch(server_name="0.0.0.0")
+    port = int(os.environ.get("PORT", 10000))
+    app.launch(server_name="0.0.0.0", server=port)
